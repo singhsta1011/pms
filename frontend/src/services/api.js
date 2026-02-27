@@ -3,7 +3,7 @@ import axios from "axios";
 /* =====================================================
    ⭐ BASE URL
 ===================================================== */
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://pms-op8k.onrender.com";
 
 /* =====================================================
    🔐 AUTH API (LOGIN / SIGNUP ONLY)
