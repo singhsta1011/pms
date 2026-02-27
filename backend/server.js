@@ -10,8 +10,8 @@ const jwt = require("jsonwebtoken");
 const { syncDB } = require("./src/models");
 const presence = require("./src/services/presence.service");
 
-const { createAdapter } = require("@socket.io/redis-adapter");
-const Redis = require("ioredis");
+//const { createAdapter } = require("@socket.io/redis-adapter");
+//const Redis = require("ioredis");
 
 const { apiLimiter } = require("./src/middleware/rateLimit.middleware");
 
